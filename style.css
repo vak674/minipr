@@ -1,9 +1,27 @@
-.box {
-    width: 200px;
-    height:  200px;
-    background-color: lightblue;
-    text-align: center;
-    line-height: 200px;
-    margin: 50px auto;
-    font-weight: bold;
+  .box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 200px;
+      margin: 50px auto;
+      font-weight: bold;
+}
+
+@media (max-width: 599px) {
+  .box {
+    background-color: pink;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .box {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 901px) {
+  .box {
+    background-color: lightgreen;
+  }
 }
